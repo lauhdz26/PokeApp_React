@@ -1,0 +1,47 @@
+.app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.pokemon-list {
+    display: flex;
+    gap: 20px;
+}
+
+.list {
+    flex: 1;
+}
+
+.pokemon-item {
+    padding: 10px;
+    margin: 5px 0;
+    background: #139e82;
+    cursor: pointer;
+}
+
+.pokemon-card {
+    flex: 1;
+    padding: 20px;
+    background: #e0e0e0;
+    border-radius: 8px;
+}
+
+.pokemon-card img {
+    width: 120px;
+    height: 120px;
+}
+.load-more {
+  padding: 10px 20px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px auto;
+  display: block;
+}
+
+.load-more:hover {
+  background: #2980b9;
+}
